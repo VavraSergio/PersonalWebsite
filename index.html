@@ -3,125 +3,77 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Professional Page</title>
-  <style>
-    * {
-      box-sizing: border-box;
-    }
+  <title>Sergio Vavra</title>
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="styles/styleIndex.css">
 
-    .wrapper {
-      margin: 0 auto;
-      font:
-        1.2em Helvetica,
-        arial,
-        sans-serif;
-    }
-
-    .wrapper>* {
-      border-radius: 5px;
-    }
-
-    nav ul {
-      list-style: none;
-      margin: 0;
-      padding: 0;
-    }
-
-    .main-head {
-      grid-area: header;
-    }
-
-    .content {
-      grid-area: content;
-    }
-
-    .main-nav {
-      grid-area: nav;
-    }
-
-    .side {
-      grid-area: sidebar;
-    }
-
-    .ad {
-      grid-area: ad;
-    }
-
-    .main-footer {
-      grid-area: footer;
-    }
-
-    img {
-      width: 200px;
-    }
-
-    header {
-      text-align: center;
-      padding: 20px;
-      background-color: #333;
-      color: white;
-    }
-
-    .wrapper {
-      display: grid;
-      gap: 10px;
-      grid-template-areas:
-        "header"
-        "nav"
-        "content"
-        "sidebar"
-        "ad"
-        "footer";
-    }
-
-    @media (min-width: 500px) {
-      .wrapper {
-        grid-template-columns: 1fr 3fr;
-        grid-template-areas:
-          "header  header"
-          "nav     nav"
-          "sidebar content"
-          "ad      footer";
-      }
-
-      nav ul {
-        display: flex;
-        justify-content: space-between;
-      }
-
-      main-head {
-        grid-column: 1 / -1;
-      }
-    }
-  </style>
 </head>
 
 <body>
-  <div class="wrapper">
-    <header class="main-head">Sergio Vavra Professional Page</header>
+  <header>
+    <h1><a href="index.html">C. Sergio Vavra</a></h1>
     <nav class="main-nav">
       <ul>
-        <li><a href="resume.html">Resume</a></li>
         <li><a href="about.html">About</a></li>
-        <li><a href="">Projects</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="resume.html" target="_blank">Resume</a></li>
       </ul>
     </nav>
-    <article class="content">
-      <ul>
-        <li>
-          <p>Sergio Vavra</p>
-        </li>
-        <li>
-          <p>Sophomore Computer Science Student</p>
-        </li>
-      </ul>
-    </article>
-    <aside class="side">
-      <figure>
-        <img src="images/IMG_2413.jpeg" alt="">
-      </figure>
-    </aside>
+  </header>
+  <div class="middler">
+    <main>
+      <div class="welcome-section">
+        <h1>Welcome to ActivityMixr!</h1>
+        <p>Spice Up Your Day with ActivityMixr</p>
+        <p>Hello there! Ready to inject some excitement into your routine? Look no further than ActivityMixr,
+          your ultimate destination for personalized, fun-filled experiences. Whether you're flying solo or
+          planning a group adventure, we've got you covered.</p>
+      </div>
+
+      <div class="activity-categories">
+        <div class="activity-category">
+          <figure>
+            <img src="images/paint-2985569_1280.jpg" alt="Creative Pursuits" height="200" width="200">
+            <figcaption>Creative Pursuits</figcaption>
+          </figure>
+        </div>
+        <div class="activity-category">
+          <figure>
+            <img src="images/Hiking-NPS-Photo-J-Tobiason_3.jpg" alt="Outdoor Adventures" height="200">
+            <figcaption>Outdoor Adventures</figcaption>
+          </figure>
+        </div>
+        <div class="activity-category">
+          <figure>
+            <img src="images/music-1813100_640.webp" alt="Musical Escapes" height="200" width="200">
+            <figcaption>Musical Escapes</figcaption>
+          </figure>
+        </div>
+      </div>
+      <div class="button-container">
+        <form>
+          <button id="spotify-login" type="submit" style="display: none;" class="log-in">Login to
+            Spotify</button>
+          <button id="spotify-logout" type="button" style="display: none;" class="log-out">Logout</button>
+        </form>
+      </div>
+      <div class="welcome-section">
+        <h2>Why Choose ActivityMixr?</h2>
+        <p>Customized Experiences: ActivityMixr curates activities based on your preferences, ensuring a
+          unique and personalized journey.</p>
+        <p>Simple and Intuitive: Navigate effortlessly through our user-friendly interface for a seamless
+          experience.</p>
+        <p>Connect with Fellow Enthusiasts: Join our community of activity lovers, sharing tips, ideas, and
+          memorable moments.</p>
+      </div>
+    </main>
   </div>
+
+  <script src="scripts/spotify.js"></script>
+
+  <script>
+  </script>
+
 </body>
 
 </html>
