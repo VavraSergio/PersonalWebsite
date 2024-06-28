@@ -1,27 +1,56 @@
 body {
+    margin: 0;
+    font-family: 'Times New Roman', serif;
     display: flex;
     flex-direction: column;
-    margin: 0;
     min-height: 100vh;
-    font-family: 'Times New Roman', serif;
 }
 
-header,
-footer {
-    text-align: center;
-    height: 50px;
-    padding: 20px;
-    background: black;
+header {
+    background-color: black;
     color: white;
-    font-weight: bold;
 
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    padding-left: 250px;
+    /* Padding for the left */
+    padding-right: 250px;
+    /* Padding for the right */
+}
+
+.header-content h1 {
+    margin: 0;
     font-family: 'Arial', sans-serif;
+}
 
-    p {
-        color: #111D70;
-        font-weight: bold;
+.header-content nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
 
-    }
+.header-content nav li {
+    margin-left: 20px;
+}
+
+.header-content nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.header-image img {
+    width: 100%;
+    display: block;
+    margin: 0;
 }
 
 .middler {
@@ -40,23 +69,25 @@ main {
     text-align: left;
 }
 
-main,
-aside,
-header,
-footer {}
+footer {
+    text-align: center;
+    height: 50px;
+    padding: 20px;
+    background: black;
+    color: white;
+    font-weight: bold;
+    font-family: 'Arial', sans-serif;
+}
 
+nav ul {
+    list-style-type: none;
+    padding-left: 0;
+}
 
-nav {
-    & ul {
-        list-style-type: none;
-        padding-left: 0;
-    }
-
-    & li {
-        display: inline-block;
-        font-weight: bold;
-        margin: 0 10px;
-    }
+nav li {
+    display: inline-block;
+    font-weight: bold;
+    margin: 0 10px;
 }
 
 a {
@@ -65,35 +96,4 @@ a {
     font-weight: bold;
     padding: 10px;
     border-radius: 5px;
-}
-
-/* This is for generate.html styling */
-.generate {
-    text-align: center;
-}
-
-.questions {
-    text-align: center;
-    padding: 5px;
-}
-
-.playlisth1 {
-    text-align: center;
-    color: black;
-}
-
-.spotify {
-    color: #6622CC;
-}
-
-.playlist-main {
-    text-align: center;
-}
-
-.help-link {
-    color: black;
-}
-
-.get-started {
-    color: #6622CC;
 }
