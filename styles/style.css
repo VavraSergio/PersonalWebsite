@@ -43,9 +43,7 @@ main {
 main,
 aside,
 header,
-footer {
-    padding: 10px;
-}
+footer {}
 
 
 nav {
