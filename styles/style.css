@@ -26,6 +26,7 @@ header {
 .header-content h1 {
     margin: 0;
     font-family: 'Arial', sans-serif;
+    font-size: 18px;
 }
 
 .header-content nav ul {
