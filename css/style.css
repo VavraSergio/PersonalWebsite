@@ -82,6 +82,11 @@ hr {}
 	padding: 150px 0;
 }
 
+.banner .banner-content .banner-name {
+	font-weight: 1000;
+}
+
+
 .banner .banner-content p {
 	margin-top: 10px;
 	margin-bottom: 15px;
