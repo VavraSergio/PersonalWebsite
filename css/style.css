@@ -10,6 +10,30 @@
  * Basic CSS starts 
  */
 
+#webchat {
+	width: 100%;
+	height: 400px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	overflow-y: scroll;
+}
+
+/* Customizing chatbot messages */
+.from-user .message-content {
+	background-color: #f0f0f0;
+	border-radius: 10px;
+	padding: 8px;
+	margin: 5px;
+}
+
+.from-bot .message-content {
+	background-color: #e0e0e0;
+	border-radius: 10px;
+	padding: 8px;
+	margin: 5px;
+}
+
 body {
 	font-family: 'Open Sans', Sans Sarif;
 	color: #787878;
