@@ -29,6 +29,15 @@ responses:
   utter_iamabot:
   - text: "I am a bot, powered by Rasa."
 
+  utter_SergioHome:
+  - text: "Sergio is from Arlington originally, but he lives in Harrisonburg now. His family is in Naples Italy!"
+  
+  utter_SergioFamily:
+  - text: "Sergio's family lives in Naples, Italy!"
+
+  utter_SergioDegree:
+  - text: "Sergio is studying Computer Science at James Madison University!"
+
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
