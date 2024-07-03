@@ -102,4 +102,10 @@ nlu:
     - Tell me about Christian Vavra
     - Tell me about Vavra
     - Tell me who Sergio is.
+    - Who is he?
+
+- intent: sergio_from
+  examples: |
+    - Where is sergio from?
+    - Where is he from?
   
