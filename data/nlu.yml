@@ -108,4 +108,9 @@ nlu:
   examples: |
     - Where is sergio from?
     - Where is he from?
+    - From where is he?
+    - Where from?
+    - Where?
+    - From?
+    
   
