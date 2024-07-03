@@ -89,3 +89,17 @@ nlu:
     - are you a human?
     - am I talking to a bot?
     - am I talking to a human?
+
+- intent: sergio_details
+  examples: |
+    - Who is Sergio?
+    - Tell me about Sergio.
+    - Who's Sergio?
+    - Tell me about Christian.
+    - Sergio
+    - Christian
+    - Tell me about Christian Sergio Vavra.
+    - Tell me about Christian Vavra
+    - Tell me about Vavra
+    - Tell me who Sergio is.
+  
