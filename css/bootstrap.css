@@ -26,9 +26,7 @@ hgroup,
 main,
 nav,
 section,
-summary {
-  display: block;
-}
+summary {}
 
 audio,
 canvas,
