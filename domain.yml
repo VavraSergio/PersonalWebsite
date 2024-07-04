@@ -11,6 +11,7 @@ intents:
   - sergio_details
   - sergio_from
   - sergio_education_basic
+  - sergio_contact
 
 responses:
   utter_greet:
@@ -49,7 +50,7 @@ responses:
 
   utter_sergio_contact:
   - text: To reach Sergio, go to his contacts page, or email him at sergio.vavra@gmail.com!
-  
+
 
 session_config:
   session_expiration_time: 60

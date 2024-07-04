@@ -11,3 +11,19 @@ rules:
   steps:
   - intent: bot_challenge
   - action: utter_iamabot
+
+- rule: Say contact when asked contact
+  steps: 
+  - intent: sergio_contact
+  - action: utter_sergio_contact
+
+- rule: Say details when asked details
+  steps: 
+  - intent: sergio_details
+  - action: utter_SergioFullDetails
+
+- rule: Say how can I help to anything
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+

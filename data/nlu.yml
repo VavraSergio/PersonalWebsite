@@ -129,6 +129,26 @@ nlu:
     - Sergio's education.
     - School
     - His school
+  
+- intent: sergio_contact
+  examples: |
+    - How can I reach Sergio?
+    - How can I contact Sergio?
+    - How to contact?
+    - Contact?
+    - What is Sergio's email?
+    - What is his email?
+    - Where do I email him?
+    - What is his contacts?
+    - How do i reach him?
+    - What is the best way to reach Sergio?
+    - I need to email Sergio.
+    - I need to email him.
+    - Show me how to email him.
+    - Where to email.
+    - Whats the email?
+    - Email of his?
+    
 
 
   

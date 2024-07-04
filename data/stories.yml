@@ -43,3 +43,10 @@ stories:
   - intent: sergio_education_basic
   - action: utter_sergio_education_basic
 
+- story: sergio_contact
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: sergio_contact
+  - action: utter_sergio_contact
+
