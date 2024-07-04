@@ -8,6 +8,8 @@ intents:
   - mood_great
   - mood_unhappy
   - bot_challenge
+  - sergio_details
+  - sergio_from
 
 responses:
   utter_greet:
