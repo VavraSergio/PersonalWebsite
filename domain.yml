@@ -46,6 +46,9 @@ responses:
 
   utter_sergio_education_basic:
   - text: Sergio goes to James Madison University, in Harrisonburg Virginia. He studies computer science with a minor in robotics. He graduated from high school in 2022 at Yorktown highschool in Arlington VA with a 3.8/4.2 unweighted/weighted GPA.
+
+  utter_sergio_contact:
+  - text: To reach Sergio, go to his contacts page, or email him at sergio.vavra@gmail.com!
   
 
 session_config:
