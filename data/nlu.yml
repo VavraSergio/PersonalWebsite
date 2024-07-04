@@ -103,6 +103,10 @@ nlu:
     - Tell me about Vavra
     - Tell me who Sergio is.
     - Who is he?
+    - Who is him?
+    - Him?
+    - JMU student?
+
 
 - intent: sergio_from
   examples: |
@@ -113,5 +117,18 @@ nlu:
     - Where?
     - From?
     - Where are you from?
+
+- intent: sergio_education_basic
+  examples: |
+    - Tell me about Sergio's education.
+    - Tell me about his school.
+    - What is his education
+    - Education
+    - School
+    - What sergio's education.
+    - Sergio's education.
+    - School
+    - His school
+
 
   

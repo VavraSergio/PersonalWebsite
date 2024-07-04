@@ -34,5 +34,12 @@ stories:
   - intent: greet
   - action: utter_greet
   - intent: sergio_details
-  - action: utter_SergioHome
-  - action: utter_SergioDegree
+  - action: utter_SergioFullDetails
+
+- story: sergio_education
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: sergio_education_basic
+  - action: utter_sergio_education_basic
+

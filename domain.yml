@@ -10,6 +10,7 @@ intents:
   - bot_challenge
   - sergio_details
   - sergio_from
+  - sergio_education_basic
 
 responses:
   utter_greet:
@@ -40,8 +41,12 @@ responses:
   utter_SergioDegree:
   - text: "Sergio is studying Computer Science at James Madison University!"
 
-  utter_SergioFullDetails
+  utter_SergioFullDetails:
   - text: Sergio's full name is Christian Sergio Vavra, but he goes by his  middle name, Sergio. Currently, he is a student at James Madison University studying computer science with a minor in robotics with a 3.765 GPA. By year, he is a junior, by academic standing he is a junior and a half. Once he finishes school, he plans on either entering the workforce, or furthering his education by going to graduates school. As of now, he is not sure what he wants to do in graduates school, but enjoys machine learning and AI modeling, such as myself!
+
+  utter_sergio_education_basic:
+  - text: Sergio goes to James Madison University, in Harrisonburg Virginia. He studies computer science with a minor in robotics. He graduated from high school in 2022 at Yorktown highschool in Arlington VA with a 3.8/4.2 unweighted/weighted GPA.
+  
 
 session_config:
   session_expiration_time: 60
