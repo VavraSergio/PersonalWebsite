@@ -34,7 +34,7 @@ responses:
   - text: "I am a bot, powered by Rasa."
 
   utter_SergioHome:
-  - text: "Sergio is from Arlington originally, but he lives in Harrisonburg now. His family is in Naples Italy!"
+  - text: "Sergio is from Arlington originally, but he lives in Harrisonburg now. His family is in Naples Italy."
   
   utter_SergioFamily:
   - text: "Sergio's family lives in Naples, Italy!"
