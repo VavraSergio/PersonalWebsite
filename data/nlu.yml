@@ -129,6 +129,11 @@ nlu:
     - Sergio's education.
     - School
     - His school
+    - What high school did sergio go to
+    - What college does sergio go to
+    - Does sergio go to college
+    - What college is he at
+    - At what college is he
   
 - intent: sergio_contact
   examples: |
@@ -202,7 +207,7 @@ nlu:
     - How old is he?
     - How many year?
     - Years, how many?
-    
+
 
 
 
