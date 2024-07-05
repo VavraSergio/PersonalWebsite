@@ -13,6 +13,7 @@ intents:
   - sergio_education_basic
   - sergio_contact
   - feelings
+  - sergio_projects
 
 responses:
   utter_greet:

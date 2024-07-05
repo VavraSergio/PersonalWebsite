@@ -58,5 +58,12 @@ stories:
   - intent: sergio_from
   - action: utter_SergioHome
 
+  - story: sergio_details
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: sergio_projects
+  - action: utter_sergio_projects
+
 
 
