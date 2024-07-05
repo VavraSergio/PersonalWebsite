@@ -24,6 +24,6 @@ rules:
 
 - rule: Say how can I help to anything
   steps:
-  - intent: goodbye
-  - action: utter_goodbye
+  - intent: feelings
+  - action: utter_how_help
 
