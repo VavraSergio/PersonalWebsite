@@ -187,6 +187,25 @@ nlu:
     - I want to hear about his projects.
     - What type of stuff is on his github?
 
+- intent: sergio_age
+  examples: |
+    - How old is Sergio?
+    - How old is he?
+    - He is how old?
+    - Years?
+    - How many years old?
+    - How many years old is he?
+    - Sergios age?
+    - What is his age?
+    - In years, how many years old is he?
+    - How many years has he been alive?
+    - How old is he?
+    - How many year?
+    - Years, how many?
+    
+
+
+
 
 
 
