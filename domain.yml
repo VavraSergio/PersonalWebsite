@@ -57,7 +57,7 @@ responses:
   - text: How can I help you?
 
   utter_sergio_project:
-  - text: Sergio has completed lots of different projects. The key ones are listed under his projects tab. Check them out [here](projects.html).
+  - text: Sergio has completed lots of different projects. The key ones are listed under his projects tab. Check them out here.
 
 
 session_config:
