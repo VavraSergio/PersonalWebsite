@@ -149,25 +149,25 @@ nlu:
     - Whats the email?
     - Email of his?
 
-  - intent: feelings
-    examples: | 
-      - Good! How are you?
-      - Im ok, how are you?
-      - Im ok.
-      - Im sad
-      - Just help me.
-      - Help me.
-      - I need help.
-      - Give me some help.
-      - Help
-      - I need help
-      - Help me
-      - Help is needed
-      - I need assistance
-      - Give me help.
-      - Assistance
-      - Helppppp
-      - Talk
+- intent: feelings
+  examples: | 
+    - Good! How are you?
+    - Im ok, how are you?
+    - Im ok.
+    - Im sad
+    - Just help me.
+    - Help me.
+    - I need help.
+    - Give me some help.
+    - Help
+    - I need help
+    - Help me
+    - Help is needed
+    - I need assistance
+    - Give me help.
+    - Assistance
+    - Helppppp
+    - Talk
 
 
 
