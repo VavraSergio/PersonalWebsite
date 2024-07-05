@@ -27,3 +27,14 @@ rules:
   - intent: feelings
   - action: utter_how_help
 
+- rule: Say age
+  steps:
+  - intent: sergio_age
+  - action: utter_sergio_age
+
+- rule: Say home
+  steps:
+  - intent: sergio_from
+  - action: utter_SergioHome
+
+
