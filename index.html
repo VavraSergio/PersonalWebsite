@@ -101,6 +101,7 @@
 	</div>
 	<script>
 		!(function () {
+			localStorage.clear();
 			let e = document.createElement("script"),
 				t = document.head || document.getElementsByTagName("head")[0];
 			(e.src =
@@ -113,6 +114,7 @@
 							initPayload: '/greet',
 							customData: { language: "en" },
 							socketUrl: "http://localhost:5005",
+							title: "Sergio's HelpBot",
 							// add other props here
 						},
 						null

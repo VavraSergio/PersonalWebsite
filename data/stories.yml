@@ -30,7 +30,7 @@ stories:
   - intent: deny
   - action: utter_goodbye
 
-- story: sergio_from
+- story: sergio_details
   steps:
   - intent: greet
   - action: utter_greet
@@ -50,4 +50,13 @@ stories:
   - action: utter_greet
   - intent: sergio_contact
   - action: utter_sergio_contact
+
+- story: sergio_details
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: sergio_from
+  - action: utter_SergioHome
+
+
 

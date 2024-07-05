@@ -168,6 +168,24 @@ nlu:
     - Assistance
     - Helppppp
     - Talk
+  
+- intent: sergio_projects
+  examples: |
+    - Tell me about his projects.
+    - Tell me about his projects.
+    - What projects has he completed?
+    - WHat has he completed
+    - What type of projects has he done?
+    - What projects?
+    - Projects?
+    - Personal projects?
+    - What personal projects?
+    - Personal
+    - Projects
+    - Proje
+    - Tell me project.
+    - I want to hear about his projects.
+    - What type of stuff is on his github?
 
 
 
