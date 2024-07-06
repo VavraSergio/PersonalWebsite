@@ -74,5 +74,13 @@ stories:
   - intent: sergio_contact_link
   - action: utter_sergio_contact_link
 
+- story: sergio work
+  steps:
+  - intent: sergio_work
+  - action: utter_sergio_work
+  - intent: affirm
+  - action: utter_sergio_work_full
+
+
 
 

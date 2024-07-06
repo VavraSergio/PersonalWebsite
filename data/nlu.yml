@@ -38,6 +38,10 @@ nlu:
     - of course
     - that sounds good
     - correct
+    - Yes please
+    - Mhm
+    - Do it
+  
 
 - intent: deny
   examples: |
