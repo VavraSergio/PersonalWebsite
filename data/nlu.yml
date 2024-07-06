@@ -208,6 +208,24 @@ nlu:
     - How many year?
     - Years, how many?
 
+- intent: sergio_contact_link
+  examples: |
+    - I can't find the page, where is it?
+    - Can I have the link?
+    - What is the link?
+    - The link?
+    - Give me the link
+    - I need the link?
+    - Where is the link?
+    - Can you give me the link?
+    - I need the link
+    - I want the link
+    - Can I get the link?
+    - WHere is it?
+    - Link please.
+    - Send the link.
+    - I want the link. 
+
 
 
 

@@ -15,6 +15,7 @@ intents:
   - feelings
   - sergio_projects
   - sergio_age
+  - sergio_contact_link
 
 responses:
   utter_greet:
@@ -62,6 +63,9 @@ responses:
 
   utter_sergio_age:
   - text: Sergio is 19 years old. 
+
+  utter_sergio_contact_link:
+  - text: You can find the link here! about.html
 
 
 session_config:

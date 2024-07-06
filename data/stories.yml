@@ -65,5 +65,14 @@ stories:
   - intent: sergio_projects
   - action: utter_sergio_project
 
+- story: sergio_contact_link
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: sergio_contact
+  - action: utter_sergio_contact
+  - intent: sergio_contact_link
+  - action: utter_sergio_contact_link
+
 
 
