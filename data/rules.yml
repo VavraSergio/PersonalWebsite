@@ -52,4 +52,10 @@ rules:
   - intent: thanks
   - action: utter_thanks
 
+- rule: Say accomplishments
+  steps:
+  - intent: sergio_accomplishments
+  - action: utter_accomplishments
+  
+
 

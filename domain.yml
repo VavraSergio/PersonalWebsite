@@ -16,6 +16,7 @@ intents:
   - sergio_age
   - sergio_contact_link
   - sergio_work
+  - sergio_accomplishments
 
 responses:
   utter_greet:
@@ -75,6 +76,9 @@ responses:
 
   utter_thanks:
   - text: You're welcome! Let me know if you need any more assistance. 
+
+  utter_accomplishments:
+  - text: Of Sergio's accomplishments, the most noteworthy are his 2x Deans list, and 2x Presidents list while at JMU, as well as his 3.754 GPA.
 
 
 session_config:

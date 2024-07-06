@@ -227,6 +227,17 @@ nlu:
     - Tell me about his professional career
     - I want to hear about his professional career.
 
+- intent: sergio_accomplishments
+  examples: |
+    - tell me about sergios accomplishments
+    - what accomplishments does he have
+    - what has he accomplished
+    - What awards has he won
+    - What sort of awards does he have
+    - Tell me about his rewards
+    - Tell me some of awards
+    - tell me about his awards
+
 
 
 
