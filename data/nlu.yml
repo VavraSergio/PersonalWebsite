@@ -170,6 +170,9 @@ nlu:
     - Tell me project.
     - I want to hear about his projects.
     - What type of stuff is on his github?
+    - Any interesting ones?
+    - What interesting ones?
+    - Are they interesting?
 
 - intent: sergio_age
   examples: |
@@ -237,6 +240,25 @@ nlu:
     - Tell me about his rewards
     - Tell me some of awards
     - tell me about his awards
+
+- intent: sergio_proven
+  examples: | 
+    - How has sergio proven himself
+    - how has he proven himself
+    - how has he proved himself
+    - Tell me how hes proved himself
+
+- intent: sergio_hire
+  examples: |
+    - Why should we hire Sergio?
+    - Why is Sergio a good hire?
+    - Should we hire sergio?
+    - Why hire him?
+    - Why hire sergio?
+    - But why should we hire him?
+    - But why should we hire?
+
+
 
 
 

@@ -56,6 +56,15 @@ rules:
   steps:
   - intent: sergio_accomplishments
   - action: utter_accomplishments
-  
+
+- rule: say hire
+  steps:
+  - intent: sergio_hire
+  - action: utter_hire
+
+- rule: say prove
+  steps:
+  - intent: sergio_prove
+  - action: utter_prove
 
 

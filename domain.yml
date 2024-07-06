@@ -17,6 +17,8 @@ intents:
   - sergio_contact_link
   - sergio_work
   - sergio_accomplishments
+  - sergio_hire
+  - sergio_proven
 
 responses:
   utter_greet:
@@ -80,6 +82,11 @@ responses:
   utter_accomplishments:
   - text: Of Sergio's accomplishments, the most noteworthy are his 2x Deans list, and 2x Presidents list while at JMU, as well as his 3.754 GPA.
 
+  utter_hire:
+  - text: Sergio is a proven academic achiever with a strong track record of diligence and hard work. His consistent ability to deliver high-quality results makes him an outstanding candidate for any position.
+
+  utter_prove:
+  - text: Sergio has proven himself multiple times throughout his academic and professional career, such as through his high GPA. 
 
 session_config:
   session_expiration_time: 60
