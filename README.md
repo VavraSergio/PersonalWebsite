@@ -1,3 +1,3 @@
-This is my personal website. It contains 4 pages, the home page, a page with my resume embedded into the html, and a page listing my projects! It should be fully up and functioning pretty soon!
+This is my personal website! It contains 5 different pages, the home page, the about page, the projects page, the contact page, and the resume page.
 
-In the future, I hope to add more to my pages, as well as create a rasa chatbot that works with the page to answer questions!
+On top of this, the website also includes a chatbot that you can interact with! It knows a lot about me so feel free to ask it questions and try it out!
