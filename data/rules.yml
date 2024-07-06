@@ -37,4 +37,9 @@ rules:
   - intent: sergio_from
   - action: utter_SergioHome
 
+- rule: Say link
+  steps:
+  - intent: sergio_contact_link
+  - action: utter_sergio_contact_link
+
 
