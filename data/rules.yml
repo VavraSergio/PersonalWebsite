@@ -7,6 +7,11 @@ rules:
   - intent: goodbye
   - action: utter_goodbye
 
+- rule: say ok
+  steps:
+  - intent: deny
+  - action: utter_ok
+
 - rule: Say 'I am a bot' anytime the user challenges
   steps:
   - intent: bot_challenge
@@ -41,5 +46,10 @@ rules:
   steps:
   - intent: sergio_contact_link
   - action: utter_sergio_contact_link
+
+- rule: Say thanks
+  steps: 
+  - intent: thanks
+  - action: utter_thanks
 
 

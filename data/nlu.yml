@@ -41,7 +41,6 @@ nlu:
     - Yes please
     - Mhm
     - Do it
-  
 
 - intent: deny
   examples: |
@@ -53,39 +52,15 @@ nlu:
     - no way
     - not really
 
-- intent: mood_great
+- intent: thanks
   examples: |
-    - perfect
-    - great
-    - amazing
-    - feeling like a king
-    - wonderful
-    - I am feeling very good
-    - I am great
-    - I am amazing
-    - I am going to save the world
-    - super stoked
-    - extremely good
-    - so so perfect
-    - so good
-    - so perfect
-
-- intent: mood_unhappy
-  examples: |
-    - my day was horrible
-    - I am sad
-    - I don't feel very well
-    - I am disappointed
-    - super sad
-    - I'm so sad
-    - sad
-    - very sad
-    - unhappy
-    - not good
-    - not very good
-    - extremly sad
-    - so saad
-    - so sad
+    - Thank you
+    - Cool, thank you
+    - Thanks
+    - Awesome, thanks!
+    - Thank you so much!
+    - So perfect
+    - Great, thanks.
 
 - intent: bot_challenge
   examples: |
@@ -232,25 +207,25 @@ nlu:
 
 - intent: sergio_work
   examples: | 
-  - Tell me about Sergio's work history.
-  - tell me about his work.
-  - What work has he completed
-  - What work
-  - Work
-  - He completed
-  - What did he complete
-  - Whats been completed
-  - Tell me abt completions of his
-  - His completions?
-  - What work has he done?
-  - I want to hear about his work.
-  - Does he have work history?
-  - Does sergio have any previous jobs?
-  - What work has he completed.
-  - tell me about his work.
-  - Tell me about his professional work
-  - Tell me about his professional career
-  - I want to hear about his professional career.
+    - Tell me about Sergio's work history.
+    - tell me about his work.
+    - What work has he completed
+    - What work
+    - Work
+    - He completed
+    - What did he complete
+    - Whats been completed
+    - Tell me abt completions of his
+    - His completions?
+    - What work has he done?
+    - I want to hear about his work.
+    - Does he have work history?
+    - Does sergio have any previous jobs?
+    - What work has he completed.
+    - tell me about his work.
+    - Tell me about his professional work
+    - Tell me about his professional career
+    - I want to hear about his professional career.
 
 
 
