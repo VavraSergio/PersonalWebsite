@@ -258,6 +258,26 @@ nlu:
     - But why should we hire him?
     - But why should we hire?
 
+- intent: sergio_project_one
+  examples: |
+    - Tell me about
+    - Tell me about one of his projects
+    - tell me about one of them
+    - Tell me about one of them
+    - Let me hear one of them
+    - Which one can you tell me about?
+    - Tell me about one of them.
+
+- intent: sergio_project_another
+  examples: |
+    - tell me about another
+    - Let me hear about another
+    - Tell me one more
+    - One more project
+    - I want to hear about another project
+    
+
+
 
 
 

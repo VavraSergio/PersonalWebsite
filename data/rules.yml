@@ -64,7 +64,22 @@ rules:
 
 - rule: say prove
   steps:
-  - intent: sergio_prove
+  - intent: sergio_proven
   - action: utter_prove
+
+- rule: say_project
+  steps:
+  - intent: sergio_project_one
+  - action: utter_project_one
+
+- rule: say_another
+  steps:
+  - intent: sergio_project_another
+  - action: utter_project_another
+
+- rule: say education
+  steps:
+  - intent: sergio_education_basic
+  - action: utter_sergio_education_basic
 
 

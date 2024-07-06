@@ -19,6 +19,8 @@ intents:
   - sergio_accomplishments
   - sergio_hire
   - sergio_proven
+  - sergio_project_one
+  - sergio_project_another
 
 responses:
   utter_greet:
@@ -87,6 +89,12 @@ responses:
 
   utter_prove:
   - text: Sergio has proven himself multiple times throughout his academic and professional career, such as through his high GPA. 
+
+  utter_project_one:
+  - text: One of Sergio's project is ActivityMixr, ActivityMixr is a dynamic website developed by Sergio's partner, Azure Dovel and him for their Application Development final project. Designed over the course of the semester, ActivityMixr allows the user to enter parameters for the kind of activity they would like to do, such as the number of people, cost, and type. The parameters are then sent to BoredAPI, a third party API that sends back an activity within those parameters. If the user likes said activity, they can then generate a playlist based off of their Spotify, and listen to said playlists which are saved over multiple sessions! Unfortantely, BoredAPI, the API they used to generate our activity, has been removed from the internet and is no longer functional. ActivityMixr makes use of CSS, JavaScript and Html. If you'd like to see the website, click here!
+
+  utter_project_another:
+  - text: Another one of his projects is the Multifunctioning Calculator This multifunctioning calculator was developed by 4 others and him for his Software Engineering semester project. Designed over the course of the semester, this calculator allows the user to use a mulitide of different functions, including a playback feature that saves the history of recent inputs, as well as different modes. Designed entirely in Java, his team and him completed this project using the agile framework Scrum, driving daily stand-ups, sprint planning, and retrospectives to meet project milestone while managing codebase iterations via GitHub. If you'd like to try his calculator, the files are on his GitHub here!
 
 session_config:
   session_expiration_time: 60
