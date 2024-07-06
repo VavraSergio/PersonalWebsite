@@ -221,10 +221,32 @@ nlu:
     - I need the link
     - I want the link
     - Can I get the link?
-    - WHere is it?
+    - Where is it?
     - Link please.
     - Send the link.
     - I want the link. 
+
+- intent: sergio_work
+  examples: | 
+  - Tell me about Sergio's work history.
+  - tell me about his work.
+  - What work has he completed
+  - What work
+  - Work
+  - He completed
+  - What did he complete
+  - Whats been completed
+  - Tell me abt completions of his
+  - His completions?
+  - What work has he done?
+  - I want to hear about his work.
+  - Does he have work history?
+  - Does sergio have any previous jobs?
+  - What work has he completed.
+  - tell me about his work.
+  - Tell me about his professional work
+  - Tell me about his professional career
+  - I want to hear about his professional career.
 
 
 
