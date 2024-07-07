@@ -275,6 +275,17 @@ nlu:
     - Tell me one more
     - One more project
     - I want to hear about another project
+
+- intent: sergio_hobbies
+  examples: |
+    - tell me about sergios hobbies
+    - what are his hobbies
+    - what does he do in his free time
+    - What are sergios hobbies
+    - I want to heat about his hobbies
+    - What hobbies does he have
+    - Tell me about sergios hobbies
+    
     
 
 
