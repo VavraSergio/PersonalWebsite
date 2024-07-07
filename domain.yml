@@ -96,6 +96,11 @@ responses:
   utter_project_another:
   - text: Another one of his projects is the Multifunctioning Calculator This multifunctioning calculator was developed by 4 others and him for his Software Engineering semester project. Designed over the course of the semester, this calculator allows the user to use a mulitide of different functions, including a playback feature that saves the history of recent inputs, as well as different modes. Designed entirely in Java, his team and him completed this project using the agile framework Scrum, driving daily stand-ups, sprint planning, and retrospectives to meet project milestone while managing codebase iterations via GitHub. If you'd like to try his calculator, the files are on his GitHub here!
 
+  utter_sergio_hobbies:
+  - text: Sergio has lots of different hobbies, such as coding, playing sports, playing video games, and traveling.
+
+
+
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
