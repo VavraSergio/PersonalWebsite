@@ -99,7 +99,10 @@ responses:
   utter_sergio_hobbies:
   - text: Sergio has lots of different hobbies, such as coding, playing sports, playing video games, and traveling.
 
+  utter_sergio_computer_science_interests:
+  - text: Sergio is particularly interested in machine learning and AI, but has a passion for all things coding related!
 
+  
 
 session_config:
   session_expiration_time: 60
