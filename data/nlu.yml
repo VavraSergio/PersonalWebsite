@@ -285,6 +285,15 @@ nlu:
     - I want to heat about his hobbies
     - What hobbies does he have
     - Tell me about sergios hobbies
+
+- intent: sergio_interests
+  examples: |
+    - tell me about sergios interests
+    - what is sergio interested in
+    - what are his interests
+    - i want to hear about his interests
+    - What are sergios interests
+    - What is he interested in
     
     
 

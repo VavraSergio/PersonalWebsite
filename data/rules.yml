@@ -82,4 +82,14 @@ rules:
   - intent: sergio_education_basic
   - action: utter_sergio_education_basic
 
+- rule: say interests
+  steps:
+  - intent: sergio_interests
+  - action: utter_sergio_computer_science_interests
+
+- rule: say hobbies
+  steps:
+  - intent: sergio_hobbies
+  - action: utter_sergio_hobbies
+
 

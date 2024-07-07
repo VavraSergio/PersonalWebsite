@@ -22,6 +22,7 @@ intents:
   - sergio_project_one
   - sergio_project_another
   - sergio_hobbies
+  - sergio_interests
 
 responses:
   utter_greet:
