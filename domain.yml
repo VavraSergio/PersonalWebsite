@@ -109,6 +109,10 @@ responses:
 
   utter_sergio_lifting_maxes:
   - text: Sergio has lifted for 2 and some years, he can bench 255, squat 335, and deadlift 385.
+
+  utter_sergio_family:
+  - text: Sergio has 2 brothers, Niclas, his older brother, and Ale, his younger brother.
+  
   
 
 
