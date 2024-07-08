@@ -92,4 +92,21 @@ rules:
   - intent: sergio_hobbies
   - action: utter_sergio_hobbies
 
+- rule: say pets
+  steps:
+  - intent: sergio_pets
+  - action: utter_sergio_pets
+
+- rule: say life
+  steps:
+  - intent: sergio_lifting
+  - action: utter_sergio_lifting_maxes
+
+- rule: say bro
+  steps:
+  - intent: sergio_brothers
+  - action: utter_sergio_family
+
+
+
 

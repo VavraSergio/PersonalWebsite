@@ -23,6 +23,9 @@ intents:
   - sergio_project_another
   - sergio_hobbies
   - sergio_interests
+  - sergio_brothers
+  - sergio_lifting
+  - sergio_pets
 
 responses:
   utter_greet:
@@ -112,7 +115,7 @@ responses:
 
   utter_sergio_family:
   - text: Sergio has 2 brothers, Niclas, his older brother, and Ale, his younger brother.
-  
+
   
 
 
