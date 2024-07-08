@@ -107,7 +107,8 @@ responses:
   utter_sergio_pets:
   - text: Sergio has 2 cats, Trippy and Ginger!
 
-  utter_sergio_lifting_maxes
+  utter_sergio_lifting_maxes:
+  - text: Sergio has lifted for 2 and some years, he can bench 255, squat 335, and deadlift 385.
   
 
 
