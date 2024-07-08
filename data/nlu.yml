@@ -294,7 +294,24 @@ nlu:
     - i want to hear about his interests
     - What are sergios interests
     - What is he interested in
+
+- intent: sergio_pets:
+  examples: |
+    - Does sergio have any pets
+    - does he have any pets
+    - What pets does he have
+    - i want to hear about his pets
+    - tell me about his pets
+    - pets
+    - pet
+    - petting
+    - cats
+    - dogs
+    - does he have any cats
+    - his animals
+    - does he like animals
     
+
     
 
 
