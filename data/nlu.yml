@@ -310,6 +310,25 @@ nlu:
     - does he have any cats
     - his animals
     - does he like animals
+
+- intent: sergio_lifting
+  examples: | 
+    - does sergio lift
+    - does sergio go to the gym
+    - does he go to teh gym
+    - what are his maxes
+
+- intent: sergio_brothers
+  examples: |
+    - does he have any brothers
+    - does he have brothers
+    - does sergio have any brothers
+    - does he have any siblings
+    - what siblings does he have
+    - siblings does sergio have?
+    - he has sobligns?
+    - siblings or nah?
+    
     
 
     
