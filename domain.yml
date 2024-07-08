@@ -104,6 +104,13 @@ responses:
   utter_sergio_computer_science_interests:
   - text: Sergio is particularly interested in machine learning and AI, but has a passion for all things coding related!
 
+  utter_sergio_pets:
+  - text: Sergio has 2 cats, Trippy and Ginger!
+
+  utter_sergio_lifting_maxes
+  
+
+
   
 
 session_config:
