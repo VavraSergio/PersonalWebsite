@@ -295,7 +295,7 @@ nlu:
     - What are sergios interests
     - What is he interested in
 
-- intent: sergio_pets:
+- intent: sergio_pets
   examples: |
     - Does sergio have any pets
     - does he have any pets
@@ -328,7 +328,7 @@ nlu:
     - siblings does sergio have?
     - he has sobligns?
     - siblings or nah?
-    
+
     
 
     
