@@ -311,6 +311,7 @@ nlu:
     - his animals
     - does he like animals
     - does he like cats
+    - does he like dogs or cats
 
 - intent: sergio_lifting
   examples: | 
