@@ -331,6 +331,22 @@ nlu:
     - he has sobligns?
     - siblings or nah?
 
+- intent: bot_answer
+  examples: |
+    - What are you?
+    - Who are you?
+    - How are you made??
+    - What made you?
+    - Explain what you are
+    - What type of bot are you
+    - I want to hear about how you're coded
+    - explain how you work
+    - What is rasa?
+    - What is a chatbot
+    - Rasa
+    - Chatbot
+    - Chatbot for rasa?
+
     
 
     
