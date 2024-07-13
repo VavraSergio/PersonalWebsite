@@ -26,6 +26,7 @@ intents:
   - sergio_brothers
   - sergio_lifting
   - sergio_pets
+  - bot_answer
 
 responses:
   utter_greet:
