@@ -107,6 +107,11 @@ rules:
   - intent: sergio_brothers
   - action: utter_sergio_family
 
+- rule: say bot
+  steps:
+  - intent: bot_answer
+  - action: utter_bot_explain
+
 
 
 
