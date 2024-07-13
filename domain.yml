@@ -117,6 +117,9 @@ responses:
   utter_sergio_family:
   - text: Sergio has 2 brothers, Niclas, his older brother, and Ale, his younger brother.
 
+  utter_bot_explain:
+  - text: I am a RASA chat bot trained and created by Sergio! If you'd like to learn more about me and the process used to train me, check out the RASA FAQ page!
+
   
 
 
