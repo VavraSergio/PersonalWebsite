@@ -112,6 +112,10 @@ rules:
   - intent: bot_answer
   - action: utter_bot_explain
 
+- rule: say born
+  steps:
+  - intent: sergio_born
+  - action: utter_sergio_born
 
 
 

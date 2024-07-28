@@ -27,6 +27,7 @@ intents:
   - sergio_lifting
   - sergio_pets
   - bot_answer
+  - sergio_born
 
 responses:
   utter_greet:
@@ -120,6 +121,8 @@ responses:
   utter_bot_explain:
   - text: I am a RASA chat bot trained and created by Sergio! If you'd like to learn more about me and the process used to train me, check out the RASA FAQ page!
 
+  utter_sergio_born:
+  - text: Sergio was born in Sasabo, Japan!
   
 
 

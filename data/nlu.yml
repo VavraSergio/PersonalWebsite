@@ -347,6 +347,16 @@ nlu:
     - Chatbot
     - Chatbot for rasa?
 
+
+- intent: sergio_born
+  examples: |
+    - Where was he born
+    - Where were you born
+    - Born?
+    - Where was sergio born
+    - Where was bro bron
+    - Where is his birth place
+    
     
 
     
