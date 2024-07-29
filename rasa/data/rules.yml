@@ -1,0 +1,121 @@
+version: "3.1"
+
+rules:
+
+- rule: Say goodbye anytime the user says goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+- rule: say ok
+  steps:
+  - intent: deny
+  - action: utter_ok
+
+- rule: Say 'I am a bot' anytime the user challenges
+  steps:
+  - intent: bot_challenge
+  - action: utter_iamabot
+
+- rule: Say contact when asked contact
+  steps: 
+  - intent: sergio_contact
+  - action: utter_sergio_contact
+
+- rule: Say details when asked details
+  steps: 
+  - intent: sergio_details
+  - action: utter_SergioFullDetails
+
+- rule: Say how can I help to anything
+  steps:
+  - intent: feelings
+  - action: utter_how_help
+
+- rule: Say age
+  steps:
+  - intent: sergio_age
+  - action: utter_sergio_age
+
+- rule: Say home
+  steps:
+  - intent: sergio_from
+  - action: utter_SergioHome
+
+- rule: Say link
+  steps:
+  - intent: sergio_contact_link
+  - action: utter_sergio_contact_link
+
+- rule: Say thanks
+  steps: 
+  - intent: thanks
+  - action: utter_thanks
+
+- rule: Say accomplishments
+  steps:
+  - intent: sergio_accomplishments
+  - action: utter_accomplishments
+
+- rule: say hire
+  steps:
+  - intent: sergio_hire
+  - action: utter_hire
+
+- rule: say prove
+  steps:
+  - intent: sergio_proven
+  - action: utter_prove
+
+- rule: say_project
+  steps:
+  - intent: sergio_project_one
+  - action: utter_project_one
+
+- rule: say_another
+  steps:
+  - intent: sergio_project_another
+  - action: utter_project_another
+
+- rule: say education
+  steps:
+  - intent: sergio_education_basic
+  - action: utter_sergio_education_basic
+
+- rule: say interests
+  steps:
+  - intent: sergio_interests
+  - action: utter_sergio_computer_science_interests
+
+- rule: say hobbies
+  steps:
+  - intent: sergio_hobbies
+  - action: utter_sergio_hobbies
+
+- rule: say pets
+  steps:
+  - intent: sergio_pets
+  - action: utter_sergio_pets
+
+- rule: say life
+  steps:
+  - intent: sergio_lifting
+  - action: utter_sergio_lifting_maxes
+
+- rule: say bro
+  steps:
+  - intent: sergio_brothers
+  - action: utter_sergio_family
+
+- rule: say bot
+  steps:
+  - intent: bot_answer
+  - action: utter_bot_explain
+
+- rule: say born
+  steps:
+  - intent: sergio_born
+  - action: utter_sergio_born
+
+
+
