@@ -59,70 +59,70 @@ responses:
   - text: "Sergio is studying Computer Science at James Madison University!"
 
   utter_SergioFullDetails:
-  - text: Sergio's full name is Christian Sergio Vavra, but he goes by his  middle name, Sergio. Currently, he is a student at James Madison University studying computer science with a minor in robotics with a 3.765 GPA. By year, he is a junior, by academic standing he is a junior and a half. Once he finishes school, he plans on either entering the workforce, or furthering his education by going to graduates school. As of now, he is not sure what he wants to do in graduates school, but enjoys machine learning and AI modeling, such as myself!
+  - text: "Sergio's full name is Christian Sergio Vavra, but he goes by his  middle name, Sergio. Currently, he is a student at James Madison University studying computer science with a minor in robotics with a 3.765 GPA. By year, he is a junior, by academic standing he is a junior and a half. Once he finishes school, he plans on either entering the workforce, or furthering his education by going to graduates school. As of now, he is not sure what he wants to do in graduates school, but enjoys machine learning and AI modeling, such as myself!"
 
   utter_sergio_education_basic:
-  - text: Sergio goes to James Madison University, in Harrisonburg Virginia. He studies computer science with a minor in robotics. He graduated from high school in 2022 at Yorktown highschool in Arlington VA with a 3.8/4.2 unweighted/weighted GPA.
+  - text: "Sergio goes to James Madison University, in Harrisonburg Virginia. He studies computer science with a minor in robotics. He graduated from high school in 2022 at Yorktown highschool in Arlington VA with a 3.8/4.2 unweighted/weighted GPA."
 
   utter_sergio_contact:
-  - text: To reach Sergio, go to his contacts page, or email him at sergio.vavra@gmail.com!
+  - text: "To reach Sergio, go to his contacts page, or email him at sergio.vavra@gmail.com!"
   
   utter_how_help:
-  - text: How can I help you?
+  - text: "How can I help you?"
 
   utter_sergio_project:
-  - text: Sergio has completed lots of different projects. The key ones are listed under his projects tab. Check them out here.
+  - text: "Sergio has completed lots of different projects. The key ones are listed under his projects tab. Check them out here."
 
   utter_sergio_age:
-  - text: Sergio is 19 years old. 
+  - text: "Sergio is 19 years old."
 
   utter_sergio_contact_link:
-  - text: You can find the link here! about.html
+  - text: "You can find the link here! about.html"
 
   utter_sergio_work:
-  - text: Sergio's work history has been outlined on his html embedded resume, would like me to state it here?
+  - text: "Sergio's work history has been outlined on his html embedded resume, would like me to state it here?"
 
   utter_sergio_work_full:
-  - text: From 2020 to 2023, Sergio worked at Pastries by Randolph, a pastry shop in Arlington, Virginia, where he worked as a server and sales clerk Greeted and assisted customers with a friendly and welcoming demeanor, ensuring a positive customer experience.                        In 2022, as part of his senior experience, Sergio worked at Hiring our Heroes as an intern for 1 month. While there, he Spearheaded data cleaning and analysis, reviewing and refining datasets to ensure accuracy and consistency and facilitated job fairs and hiring events for veterans and military spouses, managed social media accounts.       In 2023 of October, to February of 2024, Sergio worked under Dr. Wang, a professor of his at JMU, as a student researcher where he developed and implemented a Rasa chatbot leveraging AI and machine learning methodologies.
+  - text: "From 2020 to 2023, Sergio worked at Pastries by Randolph, a pastry shop in Arlington, Virginia, where he worked as a server and sales clerk Greeted and assisted customers with a friendly and welcoming demeanor, ensuring a positive customer experience. In 2022, as part of his senior experience, Sergio worked at Hiring our Heroes as an intern for 1 month. While there, he Spearheaded data cleaning and analysis, reviewing and refining datasets to ensure accuracy and consistency and facilitated job fairs and hiring events for veterans and military spouses, managed social media accounts.       In 2023 of October, to February of 2024, Sergio worked under Dr. Wang, a professor of his at JMU, as a student researcher where he developed and implemented a Rasa chatbot leveraging AI and machine learning methodologies."
 
   utter_thanks:
-  - text: You're welcome! Let me know if you need any more assistance. 
+  - text: "You're welcome! Let me know if you need any more assistance."
 
   utter_accomplishments:
-  - text: Of Sergio's accomplishments, the most noteworthy are his 2x Deans list, and 2x Presidents list while at JMU, as well as his 3.754 GPA.
+  - text: "Of Sergio's accomplishments, the most noteworthy are his 2x Deans list, and 2x Presidents list while at JMU, as well as his 3.754 GPA."
 
   utter_hire:
-  - text: Sergio is a proven academic achiever with a strong track record of diligence and hard work. His consistent ability to deliver high-quality results makes him an outstanding candidate for any position.
+  - text: "Sergio is a proven academic achiever with a strong track record of diligence and hard work. His consistent ability to deliver high-quality results makes him an outstanding candidate for any position."
 
   utter_prove:
-  - text: Sergio has proven himself multiple times throughout his academic and professional career, such as through his high GPA. 
+  - text: "Sergio has proven himself multiple times throughout his academic and professional career, such as through his high GPA."
 
   utter_project_one:
-  - text: One of Sergio's project is ActivityMixr, ActivityMixr is a dynamic website developed by Sergio's partner, Azure Dovel and him for their Application Development final project. Designed over the course of the semester, ActivityMixr allows the user to enter parameters for the kind of activity they would like to do, such as the number of people, cost, and type. The parameters are then sent to BoredAPI, a third party API that sends back an activity within those parameters. If the user likes said activity, they can then generate a playlist based off of their Spotify, and listen to said playlists which are saved over multiple sessions! Unfortantely, BoredAPI, the API they used to generate our activity, has been removed from the internet and is no longer functional. ActivityMixr makes use of CSS, JavaScript and Html. If you'd like to see the website, click here!
+  - text: "One of Sergio's project is ActivityMixr, ActivityMixr is a dynamic website developed by Sergio's partner, Azure Dovel and him for their Application Development final project. Designed over the course of the semester, ActivityMixr allows the user to enter parameters for the kind of activity they would like to do, such as the number of people, cost, and type. The parameters are then sent to BoredAPI, a third party API that sends back an activity within those parameters. If the user likes said activity, they can then generate a playlist based off of their Spotify, and listen to said playlists which are saved over multiple sessions! Unfortantely, BoredAPI, the API they used to generate our activity, has been removed from the internet and is no longer functional. ActivityMixr makes use of CSS, JavaScript and Html. If you'd like to see the website, click here!"
 
   utter_project_another:
-  - text: Another one of his projects is the Multifunctioning Calculator This multifunctioning calculator was developed by 4 others and him for his Software Engineering semester project. Designed over the course of the semester, this calculator allows the user to use a mulitide of different functions, including a playback feature that saves the history of recent inputs, as well as different modes. Designed entirely in Java, his team and him completed this project using the agile framework Scrum, driving daily stand-ups, sprint planning, and retrospectives to meet project milestone while managing codebase iterations via GitHub. If you'd like to try his calculator, the files are on his GitHub here!
+  - text: "Another one of his projects is the Multifunctioning Calculator This multifunctioning calculator was developed by 4 others and him for his Software Engineering semester project. Designed over the course of the semester, this calculator allows the user to use a mulitide of different functions, including a playback feature that saves the history of recent inputs, as well as different modes. Designed entirely in Java, his team and him completed this project using the agile framework Scrum, driving daily stand-ups, sprint planning, and retrospectives to meet project milestone while managing codebase iterations via GitHub. If you'd like to try his calculator, the files are on his GitHub here!"
 
   utter_sergio_hobbies:
-  - text: Sergio has lots of different hobbies, such as coding, playing sports, playing video games, and traveling.
+  - text: "Sergio has lots of different hobbies, such as coding, playing sports, playing video games, and traveling."
 
   utter_sergio_computer_science_interests:
-  - text: Sergio is particularly interested in machine learning and AI, but has a passion for all things coding related!
+  - text: "Sergio is particularly interested in machine learning and AI, but has a passion for all things coding related!"
 
   utter_sergio_pets:
-  - text: Sergio has 2 cats, Trippy and Ginger!
+  - text: "Sergio has 2 cats, Trippy and Ginger!"
 
   utter_sergio_lifting_maxes:
-  - text: Sergio has lifted for 2 and some years, he can bench 255, squat 335, and deadlift 385.
+  - text: "Sergio has lifted for 2 and some years, he can bench 255, squat 335, and deadlift 385."
 
   utter_sergio_family:
-  - text: Sergio has 2 brothers, Niclas, his older brother, and Ale, his younger brother.
+  - text: "Sergio has 2 brothers, Niclas, his older brother, and Ale, his younger brother."
 
   utter_bot_explain:
-  - text: I am a RASA chat bot trained and created by Sergio! If you'd like to learn more about me and the process used to train me, check out the RASA FAQ page!
+  - text: "I am a RASA chat bot trained and created by Sergio! If you'd like to learn more about me and the process used to train me, check out the RASA FAQ page!"
 
   utter_sergio_born:
-  - text: Sergio was born in Sasabo, Japan!
+  - text: "Sergio was born in Sasabo, Japan!"
   
 
 
