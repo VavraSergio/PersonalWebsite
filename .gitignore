@@ -1,0 +1,53 @@
+# General rules for all projects
+
+# IDE/Editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Python files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+*.egg-info/
+*.tox/
+*.nox/
+*.coverage
+*.hypothesis/
+.pytest_cache/
+cover/
+*.log
+*.pot
+
+# Virtual environment directories
+venv/
+env/
+ENV/
+.venv/
+
+# Rasa-specific files
+.rasa/
+logs/
+models/
+results/
+tmp/
+*.dot
+
+# HTML/CSS/JS build artifacts
+node_modules/
+dist/
+build/
+*.min.js
+*.min.css
+
+# Local configuration files
+local_settings.py
