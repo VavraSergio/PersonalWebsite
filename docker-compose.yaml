@@ -5,8 +5,6 @@ services:
     build:
       context: ./rasa
       dockerfile: Dockerfile
-    ports:
-      - "5005:5005"
     volumes:
       - ./rasa:/app
     environment:
@@ -14,3 +12,13 @@ services:
       - PYTHONDONTWRITEBYTECODE=1
       - PYTHONUNBUFFERED=1
     command: rasa run --enable-api --cors "*"
+
+  web:
+    image: nginx:1.27.0-alpine
+    ports:
+      - "80:80"
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf:ro
+      - ./website:/usr/share/nginx/html
+    depends_on:
+      - rasa
