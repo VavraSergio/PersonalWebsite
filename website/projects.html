@@ -1450,6 +1450,40 @@
             src: url('https://www.isaacdwang.com/wp-content/themes/twentytwentytwo/assets/fonts/source-serif-pro/SourceSerif4Variable-Italic.ttf.woff2') format('woff2');
             font-stretch: normal;
         }
+
+        .notification-banner {
+            background-color: #f44336;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: relative;
+            width: 100%;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+            height: 100px;
+            font-size: 15px;
+        }
+
+        .notification-banner p {
+            margin: 0;
+            display: inline-block;
+        }
+
+        .close-btn {
+            margin-left: 15px;
+            color: white;
+            font-weight: bold;
+            cursor: pointer;
+            display: inline-block;
+            font-size: 25px;
+            line-height: 20px;
+            vertical-align: middle;
+        }
+
+        .close-btn:hover {
+            color: #aaa;
+        }
     </style>
 </head>
 
@@ -1706,6 +1740,29 @@
                 }),
                 t.insertBefore(e, t.firstChild);
         })();
+    </script>
+    <script>
+        // Function to close the banner
+        function closeBanner() {
+            var banner = document.getElementById("notification-banner");
+            if (banner) {
+                banner.style.display = "none";
+            }
+        }
+
+        // Function to create the banner
+        function createBanner() {
+            var banner = document.createElement("div");
+            banner.id = "notification-banner";
+            banner.className = "notification-banner";
+            banner.innerHTML = `
+			<p>The bot is currently down. We hope to get it working soon. <span class="close-btn" onclick="closeBanner()">&times;</span></p>
+		  `;
+            document.body.prepend(banner);
+        }
+
+        // Add the banner on page load
+        window.onload = createBanner;
     </script>
 </body>
 
