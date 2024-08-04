@@ -290,3 +290,37 @@ footer .nav-link {
  * Desktop 
  */
 @media (max-width: 991px) {}
+
+.notification-banner {
+	background-color: #f44336;
+	color: white;
+	text-align: center;
+	padding: 10px;
+	position: relative;
+	width: 100%;
+	top: 0;
+	left: 0;
+	z-index: 1000;
+	height: 100px;
+	font-size: 40px;
+}
+
+.notification-banner p {
+	margin: 0;
+	display: inline-block;
+}
+
+.close-btn {
+	margin-left: 15px;
+	color: white;
+	font-weight: bold;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 25px;
+	line-height: 20px;
+	vertical-align: middle;
+}
+
+.close-btn:hover {
+	color: #aaa;
+}

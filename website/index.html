@@ -123,6 +123,29 @@
 				t.insertBefore(e, t.firstChild);
 		})();
 	</script>
+	<script>
+		// Function to close the banner
+		function closeBanner() {
+			var banner = document.getElementById("notification-banner");
+			if (banner) {
+				banner.style.display = "none";
+			}
+		}
+
+		// Function to create the banner
+		function createBanner() {
+			var banner = document.createElement("div");
+			banner.id = "notification-banner";
+			banner.className = "notification-banner";
+			banner.innerHTML = `
+			<p>The bot is currently down. We hope to get it working soon. <span class="close-btn" onclick="closeBanner()">&times;</span></p>
+		  `;
+			document.body.prepend(banner);
+		}
+
+		// Add the banner on page load
+		window.onload = createBanner;
+	</script>
 </body>
 
 
