@@ -82,6 +82,9 @@
 				</div>
 			</div>
 		</div>
+		<div id="chatbot-widget">
+			<button onclick="openChatBot()">Launch Chatbot</button>
+		</div>
 		<footer>
 			<div class="wp-block-group is-layout-constrained wp-block-group-is-layout-constrained">
 				<div class="wp-block-group alignfull is-layout-constrained wp-block-group-is-layout-constrained">
@@ -99,30 +102,6 @@
 		</footer>
 
 	</div>
-	<script>
-		!(function () {
-			localStorage.clear();
-			let e = document.createElement("script"),
-				t = document.head || document.getElementsByTagName("head")[0];
-			(e.src =
-				"https://cdn.jsdelivr.net/npm/rasa-webchat@1.x.x/lib/index.js"),
-				// Replace 1.x.x with the version that you want
-				(e.async = !0),
-				(e.onload = () => {
-					window.WebChat.default(
-						{
-							initPayload: '/greet',
-							customData: { language: "en" },
-							socketUrl: "http://localhost:80/",
-							title: "Sergio's HelpBot",
-							// add other props here
-						},
-						null
-					);
-				}),
-				t.insertBefore(e, t.firstChild);
-		})();
-	</script>
 	<script>
 		// Function to close the banner
 		function closeBanner() {
@@ -145,6 +124,12 @@
 
 		// Add the banner on page load
 		window.onload = createBanner;
+	</script>
+
+	<script>
+		function openChatBot() {
+			window.open("https://yourdomain.com/bot.html", "_blank", "width=600,height=800");
+		}
 	</script>
 </body>
 

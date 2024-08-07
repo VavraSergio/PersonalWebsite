@@ -324,3 +324,23 @@ footer .nav-link {
 .close-btn:hover {
 	color: #aaa;
 }
+
+#chatbot-widget {
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	z-index: 1000;
+}
+
+#chatbot-widget button {
+	background-color: #007bff;
+	color: white;
+	border: none;
+	padding: 10px 20px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+#chatbot-widget button:hover {
+	background-color: #0056b3;
+}
