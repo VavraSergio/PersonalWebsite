@@ -128,7 +128,18 @@
 
 	<script>
 		function openChatBot() {
-			window.open("bot.html", "_blank", "width=600,height=800");
+			// fetch('https://8inir8429h.execute-api.us-west-2.amazonaws.com/testing/start-bot', {
+			// 	method: 'POST'
+			// })
+			// 	.then(response => response.json())
+			// 	.then(data => {
+			// 		window.open(data.botUrl, '_blank');
+			// 	})
+			// 	.catch(error => console.error('Error:', error));
+			fetch('https://8inir8429h.execute-api.us-west-2.amazonaws.com/testing/stop-bot', {
+				method: 'POST',
+				body: JSON.stringify({ taskArn: 'your-task-arn' })  // Ensure taskArn is correctly provided
+			});
 		}
 	</script>
 </body>
