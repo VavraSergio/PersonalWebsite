@@ -83,7 +83,8 @@
 			</div>
 		</div>
 		<div id="chatbot-widget">
-			<button onclick="openChatBot()">Launch Chatbot</button>
+			<button id="launchButton" onclick="openChatBot()">Launch Chatbot</button>
+			<div id="buttonContainer"></div>
 		</div>
 		<footer>
 			<div class="wp-block-group is-layout-constrained wp-block-group-is-layout-constrained">
@@ -128,26 +129,67 @@
 
 	<script>
 		function openChatBot() {
-			// fetch('https://8inir8429h.execute-api.us-west-2.amazonaws.com/testing/start-bot', {
-			// 	method: 'POST'
-			// })
-			// 	.then(response => {
-			// 		if (!response.ok) {
-			// 			throw new Error(`HTTP error! status: ${response.status}`);
-			// 		}
-			// 		return response.json();
-			// 	})
-			// 	.then(data => {
-			// 		console.log('API Response:', data);  // Log the entire response
+			const launchButton = document.getElementById('launchButton');
+			launchButton.disabled = true;
 
-			// 		if (data.taskArn && data.botUrl) {
-			// 			localStorage.setItem('taskArn', data.taskArn);
-			// 			window.open(data.botUrl, '_blank');
-			// 		} else {
-			// 			console.error('API response is missing taskArn or botUrl:', data);
-			// 		}
-			// 	})
-			// 	.catch(error => console.error('Error:', error));
+			var banner = document.createElement("div");
+			banner.id = "notification-banner";
+			banner.className = "notification-banner";
+			banner.innerHTML = `
+			<p>Launching server... Please wait a second for the server to start up. <span class="close-btn" onclick="closeBanner()">&times;</span></p>
+		  `;
+			document.body.prepend(banner);
+			fetch('https://8inir8429h.execute-api.us-west-2.amazonaws.com/testing/start-bot', {
+				method: 'POST'
+			})
+				.then(response => {
+					if (!response.ok) {
+						throw new Error(`HTTP error! status: ${response.status}`);
+					}
+					return response.json();
+				})
+				.then(data => {
+					console.log('API Response:', data);  // Log the entire response
+					setTimeout(() => {
+						createOpenChatBotButton();
+					}, 60000);
+					launchButton.style.display = "none";
+				})
+				.catch(error => console.error('Error:', error));
+
+			function createOpenChatBotButton() {
+				const buttonContainer = document.getElementById('buttonContainer');
+
+				// Create a new button
+				const openButton = document.createElement('button');
+				openButton.textContent = 'Open Chatbot';
+				openButton.onclick = openChatBotNewFunctionality;
+
+				// Append the new button to the container
+				buttonContainer.appendChild(openButton);
+			}
+
+			function openChatBotNewFunctionality() {
+				fetch('https://8inir8429h.execute-api.us-west-2.amazonaws.com/testing/open-bot', {
+					method: 'POST'
+				})
+					.then(response => response.json())
+					.then(data => {
+						console.log('API Response:', data);  // Log the entire response
+
+						// Parse the body content
+						const parsedBody = JSON.parse(data.body);
+
+						// Use the botUrl and taskArn from the parsed body
+						console.log('Parsed botUrl:', parsedBody.botUrl);
+						console.log('Parsed taskArn:', parsedBody.taskArn);
+
+						// Open the chatbot in a new tab after launch
+						window.open(parsedBody.botUrl, '_blank');
+					})
+					.catch(error => console.error('Error:', error));
+			}
+
 
 
 			// 	const taskArn = localStorage.getItem('taskArn');
