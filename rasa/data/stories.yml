@@ -52,6 +52,13 @@ stories:
   - action: utter_sergio_work
   - intent: affirm
   - action: utter_sergio_work_full
+
+- story: sergio_work2
+  steps:
+  - intent: sergio_work
+  - action: utter_sergio_work
+  - intent: affirm
+  - action: utter_sergio_work_full
   
 
 
