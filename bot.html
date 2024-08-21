@@ -11,18 +11,7 @@
     <h1>The bot is working!!!!</h1>
     <div id="chat-container"></div>
     <script>
-        window.addEventListener('beforeunload', function (e) {
-            // Trigger an API call to scale down the ECS service
-            fetch('https://8inir8429h.execute-api.us-west-2.amazonaws.com/testing/stop-bot', {
-                method: 'POST'
-            })
-                .then(response => response.json())
-                .then(data => console.log('Service scaled down:', data))
-                .catch(error => console.error('Error:', error));
 
-            // The following line is just to indicate to the user that something is happening.
-            e.returnValue = '';
-        });
         !(function () {
             localStorage.clear();
             let e = document.createElement("script"),
